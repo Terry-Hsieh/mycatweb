@@ -50,8 +50,10 @@ v-bind：單向綁定(第一種)HTML元素的屬性。
     }
 }
 多個function記得逗號
+```
 如圖
 ![](https://raw.githubusercontent.com/Terry-Hsieh/mycatweb/master/catpre/1.jpg)
+``` bash
 #HTML TAG#
 <ul>
     <a href="url" :style="color and fontsize"> #寫成object的集合 
