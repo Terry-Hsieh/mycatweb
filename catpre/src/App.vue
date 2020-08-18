@@ -1,11 +1,11 @@
 <template>
   <div id="app">
-    <select v-model="selected">
-        <option value="123">Item1</option>
-        <option value="456">Item2</option>
-        <option value="789">Item3</option>
-    </select>
-    <div>selected = {{ selected }}</div>
+    <ul class="menulist">
+      <li><a href="https://www.google.com/search?q=laptop&oq=laptop&aqs=chrome..69i57j0l7.4134j0j7&sourceid=chrome&ie=UTF-8" :style="styleObject">home</a></li>
+      <li><a href="#">about</a></li>
+      <li><a href="#">work</a></li>
+      <li><a href="#">contact</a></li>
+    </ul>
   </div>
 </template>
 
@@ -13,7 +13,10 @@
 export default {
   data(){
     return{
-      selected:null
+      styleObject:{
+          color: '#2c3e54',
+          fontSize:'20px'
+      }
     }
   }
 }
