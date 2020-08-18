@@ -1,13 +1,21 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
+    <select v-model="selected">
+        <option value="123">Item1</option>
+        <option value="456">Item2</option>
+        <option value="789">Item3</option>
+    </select>
+    <div>selected = {{ selected }}</div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'App'
+  data(){
+    return{
+      selected:null
+    }
+  }
 }
 </script>
 
