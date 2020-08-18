@@ -52,7 +52,9 @@ v-bind：單向綁定(第一種)HTML元素的屬性。
 多個function記得逗號
 ```
 
-![](https://raw.githubusercontent.com/Terry-Hsieh/mycatweb/master/catpre/1.jpg "function")
+![](https://raw.githubusercontent.com/Terry-Hsieh/mycatweb/master/catpre/imgstore/1.jpg "function")
+![](https://raw.githubusercontent.com/Terry-Hsieh/mycatweb/master/catpre/imgstore/2.jpg "v-on")
+
 
 ``` bash
 #HTML TAG#
