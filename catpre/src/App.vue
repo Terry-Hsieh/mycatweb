@@ -1,11 +1,8 @@
 <template>
   <div id="app">
-    <ul class="menulist">
-      <li><a href="https://www.google.com/search?q=laptop&oq=laptop&aqs=chrome..69i57j0l7.4134j0j7&sourceid=chrome&ie=UTF-8" :style="styleObject">home</a></li>
-      <li><a href="#">about</a></li>
-      <li><a href="#">work</a></li>
-      <li><a href="#">contact</a></li>
-    </ul>
+    <button v-on:click="addCount()">點我+1</button>
+    <button @click="addCount1()">點我+2</button>
+    <p>{{ count }}</p>
   </div>
 </template>
 
@@ -13,13 +10,18 @@
 export default {
   data(){
     return{
-      styleObject:{
-          color: '#2c3e54',
-          fontSize:'20px'
+      count:0
+      }
+    },
+    methods:{
+      addCount:function(){
+        this.count += 1;
+      },
+      addCount1:function(){
+        this.count += 2;
       }
     }
   }
-}
 </script>
 
 <style>
