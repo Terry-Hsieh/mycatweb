@@ -41,8 +41,8 @@ v-model.lazy 讓數值不會即時反應要移出對應input外才會更新
 
 第一種：data改變，UI內容跟著更新。
 第二種：使用者在UI輸入內容，data跟著更新。
-v-model：雙向綁定資料(第一種&第二種)，只能在HTML表單元素和自訂元件上使用。
-v-bind：單向綁定(第一種)HTML元素的屬性。
+v-model：雙向綁定資料(第一種&第二種)，只能在HTML表單元素和自訂元件上使用。無縮寫
+v-bind：單向綁定(第一種)HTML元素的屬性，縮寫為 : 像是<a :href="url"></a>中href前的":"
 
 寫function的方法是methosd:{
     'function name()'{
