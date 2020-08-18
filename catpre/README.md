@@ -55,7 +55,7 @@ v-bind：單向綁定(第一種)HTML元素的屬性。
 ![](https://raw.githubusercontent.com/Terry-Hsieh/mycatweb/master/catpre/imgstore/1.jpg "function")
 ![](https://raw.githubusercontent.com/Terry-Hsieh/mycatweb/master/catpre/imgstore/2.jpg "v-on")
 ![](https://raw.githubusercontent.com/Terry-Hsieh/mycatweb/master/catpre/imgstore/3.jpg "event")
-
+![](https://raw.githubusercontent.com/Terry-Hsieh/mycatweb/master/catpre/imgstore/4.jpg "mouse/keyboard")
 
 ``` bash
 #HTML TAG#
